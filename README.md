@@ -1,4 +1,4 @@
-# Encrust
+# «encrust»
 
 encrust is a command line tool that converts iTerm2 color files (`*.itermcolors`) to color files usable by Dwarf Fortress.
 
