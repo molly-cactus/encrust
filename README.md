@@ -30,6 +30,10 @@ I chose `itermcolors` as my input format primarily because it supports 24-bit co
 
 iTerm2 is also pretty popular, and dozens if not hundreds of color schemes for it can be easily found online.
 
+## Support Bay 12 Games!
+
+If you like Dwarf Fortress, consider supporting Bay 12 Games either through their [patreon](https://www.patreon.com/bay12games) or directly through their [website](http://bay12games.com/support.html).
+
 ## Contributing
 
 Bug reports and pull requests are welcome on GitHub at https://github.com/smoochbot/encrust. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
