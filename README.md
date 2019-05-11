@@ -12,6 +12,12 @@ Otherwise, head on over to [Ruby's website](https://www.ruby-lang.org/en/downloa
 
 ## Usage
 
+### Security considerations
+
+encrust uses the [plist gem](https://github.com/patsplat/plist). Please only feed it files you trust, and check out [plist's security considerations section](https://github.com/patsplat/plist#security-considerations) for more information.
+
+### encrusting with gems
+
 Just point encrust at the files you'd like converted:
 
     $ encrust gruvbox-dark-soft.itermcolors
