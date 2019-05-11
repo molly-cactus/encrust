@@ -4,15 +4,23 @@ encrust is a command line tool that converts iTerm2 color files (`*.itermcolors`
 
 ## Installation
 
+encrust requires Ruby. If you have a current version of Ruby installed, it's as simple as:
+
     $ gem install encrust
+
+Otherwise, head on over to [Ruby's website](https://www.ruby-lang.org/en/downloads/) and find a version that works for your machine.
 
 ## Usage
 
 Just point encrust at the files you'd like converted:
 
-    $ encrust gruvbox-dark-soft.itermcolors elflord.itermcolors
+    $ encrust gruvbox-dark-soft.itermcolors
 
-Your Dwarf Fortress color files will be generated in the directory where you ran the command, and encrust will tell you where Dwarf Fortress expects them to be.
+It handles multiple files just fine:
+
+    $ encrust elflord.itermcolors Earthsong.itermcolors
+
+Your Dwarf Fortress color files will be generated in the directory where you ran the command, and encrust will tell you where Dwarf Fortress expects its active color file to be.
 
 If you want to try out your new color schemes without having to wait for your fortresses to open and close, try uploading the generated files to the [Dwarf Fortress Color Generator](https://manmademagic.github.io/DFColorGen/). DFColorGen also works great for small adjustments to your color schemes.
 
