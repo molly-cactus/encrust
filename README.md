@@ -1,39 +1,31 @@
 # Encrust
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/encrust`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+encrust is a command line tool that converts iTerm2 color files (`*.itermcolors`) to color files usable by Dwarf Fortress.
 
 ## Installation
-
-Add this line to your application's Gemfile:
-
-```ruby
-gem 'encrust'
-```
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
 
     $ gem install encrust
 
 ## Usage
 
-TODO: Write usage instructions here
+Just point encrust at the files you'd like converted:
 
-## Development
+    $ encrust gruvbox-dark-soft.itermcolors elflord.itermcolors
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `rake spec` to run the tests. You can also run `bin/console` for an interactive prompt that will allow you to experiment.
+Your Dwarf Fortress color files will be generated in the directory where you ran the command, and encrust will tell you where Dwarf Fortress expects them to be.
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release`, which will create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+If you want to try out your new color schemes without having to wait for your fortresses to open and close, try uploading the generated files to the [Dwarf Fortress Color Generator](https://manmademagic.github.io/DFColorGen/). DFColorGen also works great for small adjustments to your color schemes.
+
+## Why iTerm?
+
+I chose `itermcolors` as my input format primarily because it supports 24-bit color and is easy to read.
+
+iTerm2 is also pretty popular, and dozens if not hundreds of color schemes for it can be easily found online.
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/encrust. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/smoochbot/encrust. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Code of Conduct
 
-Everyone interacting in the Encrust project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/[USERNAME]/encrust/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Encrust project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/smoochbot/encrust/blob/master/CODE_OF_CONDUCT.md).
