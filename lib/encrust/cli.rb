@@ -25,7 +25,7 @@ module Encrust
             STDERR.puts "ERROR \e[31;1m✕\e[0m"
             errors << path
           else
-            file = "#{File.basename(path, ".*")}.colors.txt"
+            file = "#{File.basename(path, ".*").tr(' ', '_')}.txt"
             File.write(file, colors)
             puts "«#{file}» \e[32;1m✓\e[0m"
           end
@@ -45,7 +45,7 @@ module Encrust
       def instructions
         <<~DWARF
 
-          To use your colors in Dwarf Fortress, move the file to:
+          To use your colors in Dwarf Fortress, move your chosen file to:
 
             <your_dwarf_fortress_path>/data/init/colors.txt
 
