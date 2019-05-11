@@ -44,16 +44,14 @@ module Encrust
         red   = (iterm_rgb['Red Component'] * 255).to_i
         green = (iterm_rgb['Green Component'] * 255).to_i
         blue  = (iterm_rgb['Blue Component'] * 255).to_i
-        
         if [red, green, blue].any? { |x| x > 255 || 0 > x }
           msg = "RGB value for #{color} (DF) out of valid range."
           raise ArgumentError.new(msg)
         end
-
         <<~DWARF
-            [#{color}_R:#{red}]
-            [#{color}_G:#{green}]
-            [#{color}_B:#{blue}]
+          [#{color}_R:#{red}]
+          [#{color}_G:#{green}]
+          [#{color}_B:#{blue}]
         DWARF
       end
 
