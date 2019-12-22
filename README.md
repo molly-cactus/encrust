@@ -42,8 +42,8 @@ If you like Dwarf Fortress, consider supporting Bay 12 Games either through thei
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/smoochbot/encrust. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/molly-cactus/encrust. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](http://contributor-covenant.org) code of conduct.
 
 ## Code of Conduct
 
-Everyone interacting in the Encrust project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/smoochbot/encrust/blob/master/CODE_OF_CONDUCT.md).
+Everyone interacting in the Encrust project’s codebases, issue trackers, chat rooms and mailing lists is expected to follow the [code of conduct](https://github.com/molly-cactus/encrust/blob/master/CODE_OF_CONDUCT.md).

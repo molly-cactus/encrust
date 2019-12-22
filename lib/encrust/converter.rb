@@ -68,7 +68,7 @@ module Encrust
         <<~DWARF
 
           Converted from `#{File.basename(path)}` using encrust:
-          https://github.com/smoochbot/encrust
+          https://github.com/molly-cactus/encrust
         DWARF
       end
     end
